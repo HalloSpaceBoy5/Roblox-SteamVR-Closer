@@ -5,6 +5,7 @@ import PIL.Image
 import threading
 from io import BytesIO
 import base64
+import webbrowser
 
 exit=False
 
@@ -57,16 +58,20 @@ def quit():
     exit=True
     iconn.stop()
 
+def sm():
+    webbrowser.open("https://www.roblox.com/groups/15716128/People-of-Space")
+
+def gh():
+    webbrowser.open("https://github.com/HalloSpaceBoy5/Roblox-SteamVR-Closer")
+    
 #This sets the tray icon and buttons up
 iconn= pystray.Icon(name="Vr Executer", icon=image ,menu=(pystray.Menu(
     pystray.MenuItem("Toggle ON/OFF", onclicked),
+    pystray.MenuItem("Support Me", sm),
+    pystray.MenuItem("Github", gh),
     pystray.MenuItem("Quit", quit)
     )))
 
-#These are the threads that run the main program
-t1=threading.Thread(target=iconn.run)
-t2=threading.Thread(target=mainloop)
-t1.start()
-t2.start()
-t1.join()
-t2.join()
+#Main Program
+iconn.run_detached()
+mainloop()
