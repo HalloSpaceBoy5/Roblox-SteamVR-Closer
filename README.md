@@ -1,2 +1,2 @@
-#How to use:
+# How to use:
 To use this program all you need to do is start the executable. Once started, an icon should pop up in your system tray. If right clicked, a menu will pop up, the options will be "Switch ON/OFF" and "Quit". "SWITCH ON/OFF" enables and disables the program, you will recieve a notification telling you wether the program is enabled or not when clicked. "Quit" just quits the program, leaving behind no trace.
