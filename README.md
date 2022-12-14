@@ -6,3 +6,17 @@ To use this program all you need to do is start the executable. Once started, an
 
 # Performance Impact:
 From what I've seen using the program, no noticable performance is dropped. I ran a benchmark for exact numbers and enabled, the game remained about the same, only 1 or 2 frames were dropped. 
+
+# Q&A:
+## Will this work with roblox mods?
+Yes, it should. This is because this is an external mod to roblox, not changing the game files.
+
+## How do I play roblox VR?
+Just go to the system tray, right click on the program icon, and select the "SWITCH ON/OFF" button.
+
+## Will this affect SteamVR while I'm not playing roblox?
+No, this program is specific to roblox and will only close SteamVR if it is running
+
+
+
+If you want to support me, join my group and buy a donation: https://www.roblox.com/groups/15716128/People-of-Space
