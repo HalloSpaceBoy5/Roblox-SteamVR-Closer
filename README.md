@@ -19,4 +19,4 @@ No, this program is specific to roblox and will only close SteamVR if it is runn
 
 
 
-If you want to support me, join my group and buy a donation: https://www.roblox.com/groups/15716128/People-of-Space
+
